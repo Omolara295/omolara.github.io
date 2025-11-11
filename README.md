@@ -1,4 +1,4 @@
-### Sales Analysis Report for Numeridex Supermarket 
+### Numeridex-Supermarket-Sales-Analysis-Report
 
 
 ## Introduction
