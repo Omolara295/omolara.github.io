@@ -1,5 +1,7 @@
 ### Numeridex-Supermarket-Sales-Analysis-Report
 
+<img width="1296" height="720" alt="Numeridex-dashboard png" src="https://github.com/user-attachments/assets/77774488-d836-4b83-b0eb-3971a97d5e9d" />
+
 
 ## Introduction
 This project analyzes a supermarket sales dataset containing detailed information on customer transactions across multiple branches. 
