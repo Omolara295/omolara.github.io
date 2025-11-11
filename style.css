@@ -1,94 +1,98 @@
-.projects {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
+/* === Layout Containers === */
+.projects,
+.skills,
+.experience {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
 
 .card-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
+/* === Card Styling === */
 .card {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card h3 {
-    margin-top: 0;
-    color: #0077b6;
+  margin-top: 0;
+  color: #0077b6;
 }
 
 .card p {
-    line-height: 1.6;
+  line-height: 1.6;
 }
 
 .card ul {
-    list-style: none;
-    padding-left: 0;
-    margin: 10px 0;
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0;
 }
 
 .card ul li {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .card a {
-    text-decoration: none;
-    color: #0077b6;
-    font-weight: 500;
+  text-decoration: none;
+  color: #0077b6;
+  font-weight: 500;
 }
 
 .card a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
+/* === Button Styling === */
 .btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #0077b6;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #0077b6;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .btn:hover {
-    background-color: #005f87;
+  background-color: #005f87;
 }
 
+/* === Hero Section === */
 .hero {
-    text-align: center;
-    padding: 30px 20px;
-    background-color: #0077b6;
-    color: white;
-}
-.skills, .experience {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #0077b6;
+  color: white;
 }
 
-.skills h2, .experience h2 {
-    text-align: center;
-    color: #0077b6;
-    margin-bottom: 20px;
+/* === Section Headings === */
+.skills h2,
+.experience h2 {
+  text-align: center;
+  color: #0077b6;
+  margin-bottom: 20px;
 }
 
+/* === Progress Bars for Skills === */
 .progress-bar {
-    background-color: #eee;
-    border-radius: 5px;
-    height: 20px;
-    margin-top: 10px;
-    overflow: hidden;
+  background-color: #eee;
+  border-radius: 5px;
+  height: 20px;
+  margin-top: 10px;
+  overflow: hidden;
 }
 
 .progress {
-    background-color: #0077b6;
-    height: 100%;
-    transition: width 0.5s ease-in-out;
+  background-color: #0077b6;
+  height: 100%;
+  transition: width 0.5s ease-in-out;
 }
