@@ -1,0 +1,74 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f7f8fc;
+  color: #333;
+  text-align: center;
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+  background: #6c63ff;
+  color: white;
+  padding: 3rem 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* ===== PROJECT SECTION ===== */
+.projects {
+  padding: 2rem;
+}
+
+.projects h2 {
+  color: #5a54e6;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 320px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #6c63ff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #5a54e6;
+}
