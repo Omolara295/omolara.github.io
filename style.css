@@ -67,3 +67,29 @@
     background-color: #0077b6;
     color: white;
 }
+.skills, .experience {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.skills h2, .experience h2 {
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #eee;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #0077b6;
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+}
+
