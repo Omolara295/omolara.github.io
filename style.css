@@ -96,3 +96,24 @@
   height: 100%;
   transition: width 0.5s ease-in-out;
 }
+/* === Responsive Design === */
+@media (max-width: 600px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .card-container {
+    padding: 0 10px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero {
+    padding: 20px 10px;
+  }
+}
+
