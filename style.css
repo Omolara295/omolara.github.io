@@ -39,10 +39,17 @@ body {
   color: white;
 }
 
-/* === Section Headings === */
+/* === Section Headings (Combined Rule) === */
 .projects h2,
 .skills h2,
 .experience h2,
+.education h2 {
+  text-align: center;
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+
+/* === Dedicated Education Header Rule === */
 .education h2 {
   text-align: center;
   color: #0077b6;
@@ -171,6 +178,3 @@ body {
     padding: 20px 10px;
   }
 }
-
-
-
