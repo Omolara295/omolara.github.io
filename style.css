@@ -7,13 +7,36 @@ body {
   padding: 0;
 }
 
-/* === Layout Containers === */
-.projects,
-.skills,
-.experience {
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 0 20px;
+/* === Navigation Bar === */
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  background-color: #0077b6;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* === Hero Section === */
+.hero {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #0077b6;
+  color: white;
 }
 
 /* === Section Headings === */
@@ -31,6 +54,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  padding: 0 20px;
 }
 
 /* === Card Styling === */
@@ -64,6 +88,7 @@ body {
 
 .card p {
   line-height: 1.6;
+  margin-bottom: 10px;
 }
 
 .card ul {
@@ -86,29 +111,25 @@ body {
   text-decoration: underline;
 }
 
-/* === Button Styling === */
+/* === View Project Button === */
+.project-btn,
 .btn {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 20px;
-  background-color: #0077b6;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
   color: white;
-  border-radius: 5px;
-  text-decoration: none;
+  border-radius: 8px;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.project-btn:hover,
 .btn:hover {
-  background-color: #005f87;
-}
-
-/* === Hero Section === */
-.hero {
-  text-align: center;
-  padding: 30px 20px;
-  background-color: #0077b6;
-  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* === Progress Bars for Skills === */
@@ -128,17 +149,12 @@ body {
 
 /* === Responsive Design === */
 @media (max-width: 600px) {
-  .navbar ul {
-    flex-direction: column;
-    gap: 15px;
-  }
-
   .card-container {
     flex-direction: column;
     align-items: center;
-    padding: 0 10px;
   }
 
+  .project-btn,
   .btn {
     width: 100%;
     text-align: center;
@@ -147,6 +163,12 @@ body {
   .hero {
     padding: 20px 10px;
   }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 15px;
+  }
 }
+
 
 
