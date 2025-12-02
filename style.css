@@ -126,8 +126,9 @@ body {
   margin-top: 15px;
   padding: 10px 20px;
   background: linear-gradient(135deg, #6a11cb, #2575fc);
-  color: white;
+  color: white !important;
   border-radius: 8px;
+  font-size: 16px;
   font-weight: bold;
   text-decoration: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
@@ -178,3 +179,4 @@ body {
     padding: 20px 10px;
   }
 }
+
