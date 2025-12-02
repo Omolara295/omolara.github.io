@@ -42,7 +42,8 @@ body {
 /* === Section Headings === */
 .projects h2,
 .skills h2,
-.experience h2 {
+.experience h2,
+.education h2 {
   text-align: center;
   color: #0077b6;
   margin-bottom: 20px;
@@ -111,7 +112,7 @@ body {
   text-decoration: underline;
 }
 
-/* === View Project Button === */
+/* === View Project Button & General Buttons === */
 .project-btn,
 .btn {
   display: inline-block;
@@ -149,9 +150,15 @@ body {
 
 /* === Responsive Design === */
 @media (max-width: 600px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
   .card-container {
     flex-direction: column;
     align-items: center;
+    padding: 0 10px;
   }
 
   .project-btn,
@@ -162,11 +169,6 @@ body {
 
   .hero {
     padding: 20px 10px;
-  }
-
-  .navbar ul {
-    flex-direction: column;
-    gap: 15px;
   }
 }
 
